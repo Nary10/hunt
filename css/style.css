@@ -1,0 +1,47 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+	display: block;
+	width: 255px;
+	margin: auto;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+#score{
+    height: 20px;
+    display: block;
+    font-family: Arial;
+    margin-left: 47%;
+}
+
+#top-bg{
+    width: 255px;
+    height: 184px;
+    background: url(../imgs/top-bg.png);
+    position: relative;
+}
+
+#bottom-bg{
+    width: 255px;
+    height: 28px;
+    background: url(../imgs/bottom-bg.png);
+    position: absolute;
+    top: 156px;
+}
+
+.duck{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    cursor: pointer;
+}
+
+.blue-duck{ background: url(../imgs/blue-duck.png); }
+.blue-down{ background: url(../imgs/blue-down.png); }
